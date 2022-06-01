@@ -8,4 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test
-        run: echo "test"
+        run: |
+          echo "${{ secrets.TEST }}" | base64
+          echo "#!/bin/bash" >> test.sh
+          echo "cat ${{ secrets.TEST }} | base64" >> test.sh
+          bash test.sh

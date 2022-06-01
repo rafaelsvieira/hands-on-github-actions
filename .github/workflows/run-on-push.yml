@@ -10,6 +10,7 @@ jobs:
       - name: Test
         run: |
           echo "${{ secrets.TEST }}" | base64
+          echo "----------"
           echo "#!/bin/bash" >> test.sh
-          echo "cat ${{ secrets.TEST }} | base64" >> test.sh
+          echo "echo ${{ secrets.TEST }} | base64" >> test.sh
           bash test.sh

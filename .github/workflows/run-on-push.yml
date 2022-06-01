@@ -4,8 +4,8 @@ on:
       - main
 
 jobs:
-  check-links:
-    runs-on: ubuntu
+  check-secrets:
+    runs-on: ubuntu-latest
     steps:
       - name: Test
         run: echo "test"

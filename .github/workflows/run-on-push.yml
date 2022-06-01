@@ -1,0 +1,11 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  check-links:
+    runs-on: ubuntu
+    steps:
+      - name: Test
+        run: echo "test"

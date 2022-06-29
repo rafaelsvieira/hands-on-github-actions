@@ -1,21 +1,26 @@
-# hands-on-github-actions
+<h1 align="center">
+Hands-on Github Actions
+</h1>
 
-## 1 - O que são Github Actions?
+O intuito desse projeto é mostrar na prática como montar um template utilizando reusables que possuem jobs e actions. Pode parecer um pouco confuso, mas ao decorrer dos tópicos abordados o conceito de `jobs`, `actions` e `reusables` ficará mais claro.
 
-## 2 - Workflows
+Github Actions
 
-## 3 - Jobs
+Conteúdo
+=================
+* [Workflows](Workflows/README.md)
 
-### a. Parametros
+* [Jobs](#)
+    * [Parametros](#)
 
-### b. Steps
+    * [Steps](#)
 
-### c. Condicionais
+    * [Condicionais](#)
 
-### d. Outputs
+    * [Outputs](#)
 
-## 4 - Actions
+* [Actions](#)
 
-## 5 - Reusables
+* [Reusables](#)
 
-## 6 - Templates
+* [Templates](#)
